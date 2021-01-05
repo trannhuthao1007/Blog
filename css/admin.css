@@ -1,0 +1,77 @@
+header {
+    background: #34a0da;
+}
+
+.admin-wrapper {
+    display: float;
+    height: 900px;
+  
+   
+}
+
+.admin-wrapper .left-sidebar {
+float: left;
+height: 100%;
+width: 20%;
+background-color: rgb(112, 112, 218);
+}
+
+.admin-wrapper .left-sidebar ul{
+    list-style: none;
+    margin : 0px;
+    padding: 0px;
+}
+
+.admin-wrapper .left-sidebar ul li a{
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid  rgb(77, 77, 211);
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+    background: rgb(137, 96, 219);
+}
+
+.admin-wrapper .admin-content {
+   float: right;
+  height: 100%;
+  width: 80%;
+padding: 40px 100px 100px;
+overflow-y: scroll;
+}
+.admin-content .page-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+th, td {
+    padding: 15x;
+    text-align: left;
+    border-bottom: 1px solid rgb(105, 92, 92);
+}
+
+.edit{
+    color: green;
+
+}
+.delete{
+    color: red;
+}
+.publish{
+    color: blue;
+}
+.edit:hover,
+.delete:hover,
+.publish:hover{
+    text-decoration: underline;
+}
+
+form div {
+    margin-bottom: 15px;
+    
+}
